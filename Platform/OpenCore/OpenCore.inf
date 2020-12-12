@@ -65,6 +65,7 @@
   gEfiSimpleFileSystemProtocolGuid    ## CONSUMES
   gOcBootstrapProtocolGuid            ## CONSUMES
   gOcInterfaceProtocolGuid            ## SOMETIMES_CONSUMES
+  gAmiSoftKbdProtocolGuid             ## SOMETIMES_CONSUMES
 
 [LibraryClasses]
   DevicePathLib
